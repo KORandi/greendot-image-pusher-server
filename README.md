@@ -11,7 +11,7 @@ Open a command console, enter your project directory and execute the
 following command to download the latest stable version of this bundle:
 
 ```console
-$ composer require greendot/image-puller-client
+$ composer require greendot/image-pusher-server
 ```
 
 ### Step 2: Enable the Bundle
@@ -24,7 +24,7 @@ in the `config/bundles.php` file of your project:
 
 return [
     // ...
-    Greendot\ImagePullerClient\ImagePusherServerBundle::class => ['all' => true],
+    Greendot\ImagePusher\ImagePusherServerBundle::class => ['all' => true],
 ];
 ```
 
@@ -36,17 +36,6 @@ Create configuration file in `config/packages/image-puller-client.yaml`
 image_puller_client:
   jwt_user: <USER ID>
   jwt_pass: <SECRET>
-  src:      <DIR where images are going to be saved>
-  endpoint: <URL ENDPOINT>
-```
-
-### Step 4: Allow third party routing
-
-Create configuration file in `config/routes/image-puller-client.yaml`
-
-```yaml
-image_puller_client:
-    resource: '@ImagePullerClientBundle/Resources/config/routes.yaml'
 ```
 
 Request format:
