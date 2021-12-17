@@ -34,8 +34,16 @@ Create configuration file in `config/packages/image_pusher_server.yaml`
 
 ```yaml
 image_pusher_server:
-  jwt_user: <USER ID>
-  jwt_pass: <SECRET>
+  projects:
+    - name: foo_project
+      endpoint: <ENDPOINT URL>
+      jwt_user: <USER ID>
+      jwt_pass: <SECRET>
+      
+    - name: boo_project
+      endpoint: <ENDPOINT URL>
+      jwt_user: <USER ID>
+      jwt_pass: <SECRET>
 ```
 
 Request format:
