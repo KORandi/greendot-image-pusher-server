@@ -30,10 +30,10 @@ return [
 
 ### Step 3: Create configuration file
 
-Create configuration file in `config/packages/image-puller-client.yaml`
+Create configuration file in `config/packages/image_pusher_server.yaml`
 
 ```yaml
-image_puller_client:
+image_pusher_server:
   jwt_user: <USER ID>
   jwt_pass: <SECRET>
 ```
