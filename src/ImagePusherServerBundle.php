@@ -1,5 +1,5 @@
 <?php
-namespace Greendot\ImagePullerClient;
+namespace Greendot\ImagePusherServer;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

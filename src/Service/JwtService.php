@@ -1,6 +1,6 @@
 <?php
 
-namespace Greendot\ImagePullerClient\Service;
+namespace Greendot\ImagePusherServer\Service;
 
 use ReallySimpleJWT\Token;
 

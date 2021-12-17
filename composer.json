@@ -1,6 +1,6 @@
 {
   "name": "greendot/image-pusher-server",
-  "description": "Server bundle for image pulling from Greendot admin",
+  "description": "Server bundle for image pushing from Greendot admin",
   "type": "symfony-bundle",
   "require": {
     "php": ">=7.4",
