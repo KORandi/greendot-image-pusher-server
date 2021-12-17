@@ -1,0 +1,24 @@
+{
+  "name": "greendot/image-pusher-server",
+  "description": "Server bundle for image pulling from Greendot admin",
+  "type": "symfony-bundle",
+  "require": {
+    "php": ">=7.4",
+    "symfony/framework-bundle": "^5.2",
+    "rbdwllr/reallysimplejwt": "^4.0",
+    "ext-gd": "*",
+    "symfony/yaml": "^5.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Greendot\\ImagePusherServer\\": "src/"
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Konstantin Kozokar",
+      "email": "konstantin.kozokar@gmail.com"
+    }
+  ]
+}
